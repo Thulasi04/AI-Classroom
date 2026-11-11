@@ -1,0 +1,30 @@
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+venv/
+.venv/
+backend/.env
+backend/*.db
+backend/*.sqlite3
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/chroma_db/*
+!backend/chroma_db/.gitkeep
+.pytest_cache/
+
+# Frontend / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+*.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
